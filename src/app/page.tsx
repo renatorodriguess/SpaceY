@@ -1,8 +1,10 @@
+import Button from "./components/buttton/Button";
 
 
 export default function Home() {
   return (
-    <div>oi</div>
-    
+    <div>
+      <Button />
+    </div>
   );
 }
