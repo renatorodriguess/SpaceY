@@ -1,10 +1,10 @@
-import Button from "./components/buttton/Button";
+import Header from "./components/header/Header";
 
 
 export default function Home() {
   return (
     <div>
-      <Button />
+      <Header />
     </div>
   );
 }

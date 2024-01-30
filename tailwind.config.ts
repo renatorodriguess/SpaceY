@@ -25,6 +25,8 @@ const config: Config = {
         'earth': '#0FDD86',
         'saturn': '#554AD7',
         'uranus': '#24FFE9',
+        'background':' #04032C',
+       ' background-section': 'linear-gradient(180deg,#040327 0%,#0D0E13 24.49%)',
       },
     },
     fontWeight: {
