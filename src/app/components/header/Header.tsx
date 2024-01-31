@@ -6,7 +6,7 @@ import Icons from '../icons/Icons'
 
 const Header = () => {
   return (
-    <div className='flex flex-col bg-background h-screen overflow-x-hidden'>
+    <div className='flex flex-col bg-space-dark h-screen overflow-x-hidden'>
       <div className=' h-20 m-6 lg:mx-28 lg:my-10 '>
         <Image src={logoImg} alt="Logo Space Y" width={201} height={41} />
       </div>
