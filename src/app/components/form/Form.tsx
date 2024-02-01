@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import ticketImg from '../../../../public/images/icon-ticket.svg'
 import rocketImg from '../../../../public/images/rocket.svg'
+import smokeImg from '../../../../public/images/smoke.svg'
 
 const Form = () => {
     return (
@@ -50,6 +51,7 @@ const Form = () => {
                 <div>
                 </div>
             </div>
+            <Image className='w-full transform -translate-y-36' src={smokeImg} alt='smoke' />
         </div>
     )
 }
