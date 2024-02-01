@@ -39,6 +39,7 @@ const config: Config = {
     backgroundImage: theme => ({
       'background-stars': "url('../../public/images/stars.jpg')",
       'background-section': 'linear-gradient(180deg,#040327 0%,#0D0E13 24.49%)',
+      'background-form': "url('../../public/images/background-stars-form.jpg')",
     }),
   },
   plugins: [],

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import marsImg from '../../../../public/images/mars.svg'
-import ImagesSlide from '../Slide/ImagesSlide'
+import ImagesSlide from '../slide/ImagesSlide'
 
 const Section = () => {
     return (
