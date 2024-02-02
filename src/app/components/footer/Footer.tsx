@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 import logoImg from '../../../../public/images/logo-space-y.svg'
 import facebookImg from '../../../../public/images/facebook.svg'
 import instagramImg from '../../../../public/images/instagram.svg'

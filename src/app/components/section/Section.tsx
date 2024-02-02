@@ -1,9 +1,9 @@
 'use client'
 
-import React from 'react'
-import Image from 'next/image'
-import marsImg from '../../../../public/images/mars.svg'
-import ImagesSlide from '../slide/ImagesSlide'
+import React from 'react';
+import Image from 'next/image';
+import marsImg from '../../../../public/images/mars.svg';
+import ImagesSlide from '../slide/ImagesSlide';
 import { motion } from "framer-motion";
 
 const Section = () => {
