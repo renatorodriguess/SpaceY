@@ -1,3 +1,5 @@
+'use client'
+
 import Footer from "./components/footer/Footer";
 import Form from "./components/form/Form";
 import Header from "./components/header/Header";
@@ -12,7 +14,7 @@ export default function Home() {
       <Section />
       <Form/>
       <Footer/>
-      <ImagesSlide/>
+      <ImagesSlide />
     </div>
   );
 }
