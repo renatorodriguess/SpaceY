@@ -1,14 +1,30 @@
+'use client'
+
 import React from 'react'
 import Image from 'next/image'
 import ticketImg from '../../../../public/images/icon-ticket.svg'
 import rocketImg from '../../../../public/images/rocket.svg'
 import smokeImg from '../../../../public/images/smoke.svg'
+import { motion } from 'framer-motion'
 
 const Form = () => {
     return (
         <div className='hidden lg:flex flex-col w-full pt-14 justify-around bg-background-form bg-cover bg-no-repeat'>
-            <div className='flex w-full justify-around'>
-                <div className='bg-[#0E0D40] rounded-2xl ml-28 max-h-[750px] px-10 py-13 pt-15 pb-14'>
+            <div
+                className='flex w-full justify-around'>
+                <motion.div
+                    whileInView="visible"
+                    initial="initial"
+                    viewport={{ once: true }}
+                    variants={{
+                        initial: { opacity: 0, x: -60 },
+                        visible: {
+                            opacity: 1,
+                            x: 0,
+                            transition: { duration: 1, delay: .1 },
+                        },
+                    }}
+                    className='bg-[#0E0D40] rounded-2xl ml-28 max-h-[750px] px-10 py-13 pt-15 pb-14'>
                     <Image className='mt-5' src={ticketImg} width={56} height={56} alt='' />
                     <h2 className='text-white text-2xl pt-4'>Garanta sua vaga para a primeira viagem</h2>
                     <h3 className='text-gray-05 max-w-[308px]'>Preencha os campos abaixo para entrar na lista de espera</h3>
@@ -46,12 +62,39 @@ const Form = () => {
                         <button className=" text-white hover:text-slate-200  font-bold bg-mars hover:bg-orange-700 w-[426px] h-16 border-none rounded-md cursor-pointer text-center">Garantir minha vaga</button>
 
                     </form>
-                </div>
-                <Image className='transform -translate-y-32 -translate-x-24' src={rocketImg} width={600} height={600} alt='' />
+                </motion.div>
                 <div>
+                    <motion.div
+                        whileInView="visible"
+                        initial="initial"
+                        viewport={{ once: true }}
+                        variants={{
+                            initial: { opacity: 0, y: 0 },
+                            visible: {
+                                opacity: 1, y: -120, transition: { duration: 1, delay: .1 },
+                            },
+                        }}
+                    >
+                        <Image
+                            className='transform -translate-y-32 -translate-x-24 mt-20' src={rocketImg} width={600} height={600} alt='' />
+                    </motion.div>
                 </div>
             </div>
-            <Image className='w-full transform -translate-y-36' src={smokeImg} alt='smoke' />
+
+            <motion.div
+                whileInView="visible"
+                initial="initial"
+                viewport={{ once: true }}
+                variants={{
+                    initial: { opacity: 0, y: 0 },
+                    visible: {
+                        opacity: 1, y: -90,
+                        transition: { duration: 1, delay: .1 },
+                    },
+                }}
+            >
+                <Image className='w-full transform -translate-y-36' src={smokeImg} alt='smoke' />
+            </motion.div>
         </div>
     )
 }
