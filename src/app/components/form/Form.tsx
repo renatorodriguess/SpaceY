@@ -25,7 +25,7 @@ const Form = () => {
                         },
                     }}
                     className='bg-[#0E0D40] rounded-2xl ml-28 max-h-[750px] px-10 py-13 pt-15 pb-14'>
-                    <Image className='mt-5' src={ticketImg} width={56} height={56} alt='' />
+                    <Image className='mt-5' src={ticketImg} width={56} height={56} alt='Ticket Imagem' />
                     <h2 className='text-white text-2xl pt-4'>Garanta sua vaga para a primeira viagem</h2>
                     <h3 className='text-gray-05 max-w-[308px]'>Preencha os campos abaixo para entrar na lista de espera</h3>
 
@@ -76,7 +76,7 @@ const Form = () => {
                         }}
                     >
                         <Image
-                            className='transform -translate-y-32 -translate-x-24 mt-20' src={rocketImg} width={600} height={600} alt='' />
+                            className='transform -translate-y-32 -translate-x-24 mt-20' src={rocketImg} width={600} height={600} alt='Rocket Imagem' />
                     </motion.div>
                 </div>
             </div>

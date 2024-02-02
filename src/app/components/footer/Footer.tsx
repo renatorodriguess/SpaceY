@@ -8,11 +8,11 @@ import linkedinImg from '../../../../public/images/linkedin.svg'
 const Footer = () => {
   return (
     <div className='hidden lg:flex justify-around bg-background-form'>
-      <div><Image className='flex pb-3 cursor-pointer' src={logoImg} alt='' /></div>
+      <div><Image className='flex pb-3 cursor-pointer' src={logoImg} alt='Logo Space Y' /></div>
       <div className='flex gap-5 cursor-pointer pb-3 '>
-        <Image width={30} src={instagramImg} alt='' />
-        <Image width={30} src={facebookImg} alt='' />
-        <Image width={30} src={linkedinImg} alt='' />
+        <Image width={30} src={instagramImg} alt='Instagram Logo' />
+        <Image width={30} src={facebookImg} alt='Facebook Logo' />
+        <Image width={30} src={linkedinImg} alt='Linkedin Logo' />
       </div>
       <div>
         <ul className='flex gap-14 list-none text-white text-xl pb-3'>

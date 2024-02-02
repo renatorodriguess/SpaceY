@@ -15,7 +15,7 @@ const ImagesSlide = () => {
             <motion.div
                 whileInView="visible" initial="initial" viewport={{ once: true }} variants={{ initial: { opacity: 0, x: 60 }, visible: { opacity: 1, x: 0, transition: { duration: 1, delay: .1 }, }, }}
                 className='max-w-[300px] mr-[200px]'>
-                <Image className='pb-3' src={logoImg} alt='' />
+                <Image className='pb-3' src={logoImg} alt='Logo Space Y' />
                 <p className='text-white text-5xl font-bold'>O caminho para tornar a humanidade multiplanetária</p>
                 <motion.h2
                     whileInView="visible"
@@ -32,7 +32,7 @@ const ImagesSlide = () => {
                     className='text-mars-light hover:text-mars font-medium cursor-pointer text-xl pt-2'>Inscreva-se agora</motion.h2>
             </motion.div>
 
-            <Image className='mr-7 cursor-pointer' src={arrowImg} alt='' />
+            <Image className='mr-7 cursor-pointer' src={arrowImg} alt='Arrow Left Logo' />
             <div className='flex max-w-[1000px]'>
                 <Marquee
                     direction="right"
@@ -41,12 +41,12 @@ const ImagesSlide = () => {
 
                 >
                     <div className='flex pl-10 gap-9'>
-                        <Image className='rounded-md h-[355px]' src={img1} alt='' />
-                        <Image className='rounded-md h-[355px]' src={img2} alt='' />
-                        <Image className='rounded-md h-[355px]' src={img3} alt='' />
+                        <Image className='rounded-md h-[355px]' src={img1} alt='Gallery 1' />
+                        <Image className='rounded-md h-[355px]' src={img2} alt='Gallery 2' />
+                        <Image className='rounded-md h-[355px]' src={img3} alt='Gallery 3' />
                     </div>
                 </Marquee>
-                <Image className='ml-7 -rotate-180 cursor-pointer' src={arrowImg} alt='' />
+                <Image className='ml-7 -rotate-180 cursor-pointer' src={arrowImg} alt='Arrow Right Logo' />
             </div>
         </div >
     )

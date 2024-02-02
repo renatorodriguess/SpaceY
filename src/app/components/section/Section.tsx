@@ -19,7 +19,7 @@ const Section = () => {
                             },
                         }}
                     >
-                        <Image src={marsImg} alt='' className='w-[621px] h-[621px] md:w-auto md:h-auto' />
+                        <Image src={marsImg} alt='Mars Imagem' className='w-[621px] h-[621px] md:w-auto md:h-auto' />
                     </motion.div>
 
                     <motion.div

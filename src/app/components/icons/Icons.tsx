@@ -24,15 +24,15 @@ const Icons = () => {
             }}
             className='flex flex-col lg:flex-row gap-28 text-white justify-center text-center items-center lg:justify-around pt-32'>
             <div className='lg:flex flex-col max-w-[216px]'>
-                <Image src={img1} alt='' width={56} height={56} className='bg-no-repeat mx-auto' />
+                <Image src={img1} alt='Icon Rocket' width={56} height={56} className='bg-no-repeat mx-auto' />
                 <h2>Foguetes com a mais alta tecnologia e conforto.</h2>
             </div>
             <div className='flex flex-col max-w-[216px]'>
-                <Image src={img2} alt='' width={56} height={56} className='bg-no-repeat mx-auto' />
+                <Image src={img2} alt='Icon Flag' width={56} height={56} className='bg-no-repeat mx-auto' />
                 <h2>Foguetes com a mais alta tecnologia e conforto.</h2>
             </div>
             <div className='flex flex-col max-w-[216px]'>
-                <Image src={img3} alt='' width={56} height={56} className='bg-no-repeat mx-auto' />
+                <Image src={img3} alt='Icon Telescope' width={56} height={56} className='bg-no-repeat mx-auto' />
                 <h2>Foguetes com a mais alta tecnologia e conforto.</h2>
             </div>
         </motion.div>
