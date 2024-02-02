@@ -36,18 +36,16 @@ const ImagesSlide = () => {
 
             <Image className='mr-7 cursor-pointer' src={arrowImg} alt='' />
             <div className='flex max-w-[1000px]'>
-                <Marquee
-                    direction="right"
-                    speed={50}
-                    pauseOnClick={true}
 
-                >
-                    <div className='flex pl-10 gap-9'>
-                        <Image className='rounded-md h-[355px]' src={img1} alt='' />
-                        <Image className='rounded-md h-[355px]' src={img2} alt='' />
-                        <Image className='rounded-md h-[355px]' src={img3} alt='' />
-                    </div>
-                </Marquee>
+
+
+
+                <div className='flex pl-10 gap-9'>
+                    <Image className='rounded-md h-[355px]' src={img1} alt='' />
+                    <Image className='rounded-md h-[355px]' src={img2} alt='' />
+                    <Image className='rounded-md h-[355px]' src={img3} alt='' />
+                </div>
+
                 <Image className='ml-7 -rotate-180 cursor-pointer' src={arrowImg} alt='' />
             </div>
         </div >
