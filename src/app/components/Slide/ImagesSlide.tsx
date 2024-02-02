@@ -12,7 +12,7 @@ import Marquee from "react-fast-marquee";
 
 const ImagesSlide = () => {
     return (
-        <div className='flex items-center justify-center mt-[150px] ml-[100px] mb-[157px] mr-[300px]"'>
+        <div className='hidden sm:flex items-center justify-center mt-[150px] ml-[100px] mb-[157px] mr-[300px]"'>
             <div className='max-w-[300px] mr-[200px]'>
                 <Image className='pb-3' src={logoImg} alt='' />
                 <p className='text-white text-5xl font-bold'>O caminho para tornar a humanidade multiplanetária</p>

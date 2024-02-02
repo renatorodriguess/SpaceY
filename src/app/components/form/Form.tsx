@@ -6,7 +6,7 @@ import smokeImg from '../../../../public/images/smoke.svg'
 
 const Form = () => {
     return (
-        <div className='pt-14 flex flex-col justify-around bg-background-form bg-cover bg-no-repeat w-full'>
+        <div className='hidden lg:flex flex-col w-full pt-14 justify-around bg-background-form bg-cover bg-no-repeat'>
             <div className='flex w-full justify-around'>
                 <div className='bg-[#0E0D40] rounded-2xl ml-28 max-h-[750px] px-10 py-13 pt-15 pb-14'>
                     <Image className='mt-5' src={ticketImg} width={56} height={56} alt='' />

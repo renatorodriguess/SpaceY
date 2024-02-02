@@ -7,7 +7,7 @@ import linkedinImg from '../../../../public/images/linkedin.svg'
 
 const Footer = () => {
   return (
-    <div className='bg-background-form justify-around flex'>
+    <div className='hidden lg:flex justify-around bg-background-form'>
       <div><Image className='flex pb-3 cursor-pointer' src={logoImg} alt='' /></div>
       <div className='flex gap-5 cursor-pointer pb-3 '>
         <Image width={30} src={instagramImg} alt='' />
