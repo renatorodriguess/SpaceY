@@ -122,15 +122,15 @@ Project Link: [Vercel](https://devbooks-project.vercel.app)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/renatorodriguess/DevBooks.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/renatorodriguess/space-y.svg?style=for-the-badge
 [contributors-url]: https://github.com/renatorodriguess/DevBooks/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/renatorodriguess/DevBooks.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/renatorodriguess/space-y.svg?style=for-the-badge
 [forks-url]: https://github.com/renatorodriguess/DevBooks/network/members
-[stars-shield]: https://img.shields.io/github/stars/renatorodriguess/DevBooks.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/renatorodriguess/space-y.svg?style=for-the-badge
 [stars-url]: https://github.com/renatorodriguess/DevBooks/stargazers
-[issues-shield]: https://img.shields.io/github/issues/renatorodriguess/DevBooks.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/renatorodriguess/space-y.svg?style=for-the-badge
 [issues-url]: https://github.com/renatorodriguess/DevBooks/issues
-[license-shield]: https://img.shields.io/github/license/renatorodriguess/DevBooks.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/renatorodriguess/space-y.svg?style=for-the-badge
 [license-url]: https://github.com/renatorodriguess/DevBooks/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/renato-rodrigues-2240251b5/
