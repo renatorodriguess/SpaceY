@@ -103,7 +103,7 @@ Don't forget to give the project a star! Thanks again!
 
 Renato Rodrigues - [@renatorodriguess](https://linkedin.com/in/renato-rodrigues-2240251b5/) - renato072002@gmail.com
 
-Project Link: [Vercel](https://devbooks-project.vercel.app)
+Project Link: [Vercel](https://spacey-project.vercel.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,15 +123,15 @@ Project Link: [Vercel](https://devbooks-project.vercel.app)
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/renatorodriguess/space-y.svg?style=for-the-badge
-[contributors-url]: https://github.com/renatorodriguess/DevBooks/graphs/contributors
+[contributors-url]: https://github.com/renatorodriguess/space-y/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/renatorodriguess/space-y.svg?style=for-the-badge
-[forks-url]: https://github.com/renatorodriguess/DevBooks/network/members
+[forks-url]: https://github.com/renatorodriguess/space-y/network/members
 [stars-shield]: https://img.shields.io/github/stars/renatorodriguess/space-y.svg?style=for-the-badge
-[stars-url]: https://github.com/renatorodriguess/DevBooks/stargazers
+[stars-url]: https://github.com/renatorodriguess/space-y/stargazers
 [issues-shield]: https://img.shields.io/github/issues/renatorodriguess/space-y.svg?style=for-the-badge
-[issues-url]: https://github.com/renatorodriguess/DevBooks/issues
+[issues-url]: https://github.com/renatorodriguess/space-y/issues
 [license-shield]: https://img.shields.io/github/license/renatorodriguess/space-y.svg?style=for-the-badge
-[license-url]: https://github.com/renatorodriguess/DevBooks/blob/master/LICENSE.txt
+[license-url]: https://github.com/renatorodriguess/space-y/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/renato-rodrigues-2240251b5/
 [product-screenshot]: images/screenshot.png
